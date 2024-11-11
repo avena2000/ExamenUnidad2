@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/705d8d055f.js"></script>
+    <script src="responsiveslides.js"></script>
+    <link
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+            rel="stylesheet"
+    />
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link href="mobile.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="carrousel.css">
+    <title>Examen Unidad 2</title>
+</head>
+<body>
+<i id="subir" class="up fa-solid fa-chevron-up animate__animated animate__fadeInUp"></i>
+
+<header>
+    <figure>
+        <img alt="logo" src="imagenes/logoheader.png">
+    </figure>
+    <div>
+        <p>WEBX</p>
+        <i class=" fa-solid fa-bars" id="barras"></i>
+    </div>
+    <nav class="show-menu" id="menu">
+        <ul>
+            <li><a class="boton" href="#">Home</a></li>
+            <li><a class="boton" href="#about">About</a></li>
+            <li><a class="boton" href="#service">Service</a></li>
+            <li><a class="boton" href="#team">Team</a></li>
+            <li><a class="boton" href="#testimoniales">Testimoniales</a></li>
+            <li><a class="boton" href="#notices">Notice</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="slides">
+    <ul class="rslides">
+        <li><img alt="1" src="imagenes/slide1.jpg"></li>
+        <li><img alt="2" src="imagenes/slide2.jpg"></li>
+        <li><img alt="3" src="imagenes/slide3.jpg"></li>
+    </ul>
+    <div class="texto">
+        <h2 class="animate__animated animate__pulse">Analyze and Find the Perfect IT Solution</h2>
+        <p class="animate__animated animate__backInRight">Ensuring the best return on investment for your bespoke SEO
+            campaing requirement. Awesome IT solution services.</p>
+    </div>
+</section>
+<section id="about" class="paralax">
+    <div class="titulo">
+        <h1>ABOUT</h1>
+        <div class="barrita-titulo"></div>
+    </div>
+    <div class="imagen">
+        <div>
+            <p>// We Carry More Than Just Good Coding Skills</p>
+            <h2>Let's Build Your Website!</h2>
+            <a class="boton-transparente" href="#">CONTACT US</a>
+        </div>
+    </div>
+</section>
+<section id="service" style="background-color: #f1f6fc; padding-bottom: 50px" class="services">
+    <div class="titulo">
+        <h1>SERVICE</h1>
+        <div class="barrita-titulo"></div>
+    </div>
+    <div class="contenido">
+        <article class="wow animate__animated animate__backInLeft">
+            <h2>Trusted Services</h2>
+            <img src="imagenes/icono1.png" alt="icono1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptate?</p>
+        </article>
+        <article class="wow animate__animated animate__backInRight">
+            <h2>24/7 Support</h2>
+            <img src="imagenes/icono2.png" alt="icono2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, velit.</p>
+        </article>
+        <article class="wow animate__animated animate__backInLeft">
+            <h2>Expert Engineer</h2>
+            <img src="imagenes/icono3.png" alt="icono3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, explicabo.</p>
+        </article>
+        <article class="wow animate__animated animate__backInRight">
+            <h2>Minimal Design</h2>
+            <img src="imagenes/icono4.png" alt="icono4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, odit?</p>
+        </article>
+    </div>
+</section>
+
+<section id="team" class="team">
+    <div class="titulo">
+        <h1>TEAM</h1>
+        <div class="barrita-titulo"></div>
+    </div>
+    <div class="imagenes">
+        <a href="imagenes/team1.jpeg" data-fancybox="gallery" class="div1 wow animate__animated animate__headShake">
+            <figure>
+                <img src="imagenes/team1.jpeg" alt="img1">
+            </figure>
+        </a>
+        <a href="imagenes/team2.jpeg" data-fancybox="gallery" class="div3 wow animate__animated animate__headShake">
+            <figure>
+                <img src="imagenes/team2.jpeg" alt="img1">
+            </figure>
+        </a>
+        <a href="imagenes/team3.jpeg" data-fancybox="gallery" class="div2 wow animate__animated animate__headShake">
+            <figure>
+                <img src="imagenes/team3.jpeg" alt="img1">
+            </figure>
+        </a>
+    </div>
+</section>
+
+<section id="testimoniales" style="background-color: #f1f6fc; padding: 50px 0" class="services">
+    <div class="titulo">
+        <h1>TESTIMONIALES</h1>
+        <div class="barrita-titulo"></div>
+    </div>
+    <div id="carousel">
+        <div id="slide-container">
+            <div class="slide">
+                <figure>
+                    <img src="imagenes/testi1.jpeg" alt="persona 1">
+                    <i class="fa-solid fa-quote-left"></i>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque blanditiis consectetur eligendi et exercitationem, fuga id in quo voluptatem? At excepturi, harum ipsa ipsam iste maiores nihil omnis placeat, quae quidem quisquam ut voluptatum. At autem excepturi harum hic, laborum non perferendis quibusdam recusandae unde. Adipisci dolor dolorum eos error est iste, officia provident quam quisquam sunt ullam, unde!</p>
+                <h2>John Smith</h2>
+                <h3>IT Manager</h3>
+            </div>
+            <div class="slide">
+                <figure>
+                    <img src="imagenes/testi2.jpg" alt="persona 2">
+                    <i class="fa-solid fa-quote-left"></i>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque blanditiis consectetur eligendi et exercitationem, fuga id in quo voluptatem? At excepturi, harum ipsa ipsam iste maiores nihil omnis placeat, quae quidem quisquam ut voluptatum. At autem excepturi harum hic, laborum non perferendis quibusdam recusandae unde. Adipisci dolor dolorum eos error est iste, officia provident quam quisquam sunt ullam, unde!</p>
+                <h2>Bread Mc</h2>
+                <h3>Founder</h3>
+            </div>
+            <div class="slide">
+                <figure>
+                    <img src="imagenes/testi3.jpeg" alt="persona 3">
+                    <i class="fa-solid fa-quote-left"></i>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque blanditiis consectetur eligendi et exercitationem, fuga id in quo voluptatem? At excepturi, harum ipsa ipsam iste maiores nihil omnis placeat, quae quidem quisquam ut voluptatum. At autem excepturi harum hic, laborum non perferendis quibusdam recusandae unde. Adipisci dolor dolorum eos error est iste, officia provident quam quisquam sunt ullam, unde!</p>
+                <h2>Maria Fread</h2>
+                <h3>Web Developer</h3>
+            </div>
+        </div>
+        <div class="slide-buttons">
+            <a href="#carousel" id="back-button"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="#carousel" id="forward-button"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+<section id="notices" class="noticias">
+    <div class="titulo">
+        <h1>NOTICES</h1>
+        <div class="barrita-titulo"></div>
+    </div>
+    <div class="acordeon-container">
+        <div class="acordeon">
+            <div class="contenedor-pregunta">
+                <div class="pregunta">
+                    <h3>NOTICE 1</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="respuesta" style="display: none">
+                    <figure>
+                        <img src="imagenes/notice1.jpeg" alt="notice1">
+                    </figure>
+                    <div class="date">
+                        <i class="fa-solid fa-user"></i>
+                        <p style="font-weight: bold">Webx</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <p>July 26, 2020</p>
+                    </div>
+                    <h2>What an great idea to improve.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eaque fuga libero, odit quisquam quod!</p>
+                </div>
+            </div>
+            <div class="contenedor-pregunta" >
+                <div class="pregunta">
+                    <h3>NOTICE 2</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="respuesta"  style="display: none">
+                    <figure>
+                        <img src="imagenes/notice2.jpeg" alt="notice2">
+                    </figure>
+                    <div class="date">
+                        <i class="fa-solid fa-user"></i>
+                        <p style="font-weight: bold">Webx</p>
+                        <p>|</p>
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <p>August 26, 2020</p>
+                    </div>
+                    <h2>5 Easy Ways to Improve Your Web Security</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eaque fuga libero, odit quisquam quod!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <figure>
+        <img alt="logo" src="imagenes/logofooter.png">
+    </figure>
+</footer>
+
+<script src="carrousel.js"></script>
+<script>
+    new WOW().init();
+    $("#barras").click(function () {
+        $("#menu").slideToggle()
+    })
+    $(".boton").click(function () {
+        $("#menu").slideToggle()
+    })
+    $(".rslides").responsiveSlides({
+        auto: true,
+        pager: false,
+        speed: 500,
+    });
+    $(document).ready(function () {
+        $("#subir").click(function () {
+            $("body, html").animate(
+                {
+                    scrollTop: "0px",
+                },
+                1000
+            );
+        });
+    });
+    $(".pregunta").click(function () {
+        const $icon = $(this).children("i");
+        const $respuesta = $(this).next(".respuesta");
+        $respuesta.slideToggle();
+        $icon.toggleClass("rotate");
+
+    })
+    Fancybox.bind("[data-fancybox]", {});
+</script>
+</body>
+</html>
